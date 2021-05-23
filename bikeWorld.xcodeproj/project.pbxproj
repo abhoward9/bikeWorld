@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499DDB1B2659C4E10058070C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499DDB1A2659C4E10058070C /* AppDelegate.swift */; };
+		499DDB1D2659C4E10058070C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 499DDB1C2659C4E10058070C /* art.scnassets */; };
+		499DDB1F2659C4E20058070C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499DDB1E2659C4E20058070C /* GameViewController.swift */; };
+		499DDB222659C4E20058070C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499DDB202659C4E20058070C /* Main.storyboard */; };
+		499DDB242659C4E60058070C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499DDB232659C4E60058070C /* Assets.xcassets */; };
+		499DDB2D2659C6AA0058070C /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB2C2659C6AA0058070C /* ExternalAccessory.framework */; };
+		499DDB2F2659C6BC0058070C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB2E2659C6BB0058070C /* CoreBluetooth.framework */; };
+		499DDB312659C6F30058070C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB302659C6D60058070C /* libc++.tbd */; };
+		499DDB332659C7490058070C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB322659C7490058070C /* libz.tbd */; };
+		499DDB352659CDC10058070C /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB342659CDC10058070C /* WFConnector.framework */; };
+		499DDB382659D37A0058070C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB372659D37A0058070C /* CoreFoundation.framework */; };
+		499DDB3A2659D6B00058070C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499DDB392659D6B00058070C /* SystemConfiguration.framework */; };
+		499DDB3C2659EB990058070C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499DDB3B2659EB990058070C /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		499DDB172659C4E10058070C /* bikeWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bikeWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499DDB1A2659C4E10058070C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499DDB1C2659C4E10058070C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		499DDB1E2659C4E20058070C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		499DDB212659C4E20058070C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499DDB232659C4E60058070C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499DDB252659C4E60058070C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499DDB2C2659C6AA0058070C /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		499DDB2E2659C6BB0058070C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		499DDB302659C6D60058070C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		499DDB322659C7490058070C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		499DDB342659CDC10058070C /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFConnector.framework; sourceTree = "<group>"; };
+		499DDB362659CEB20058070C /* WFConnector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WFConnector-Bridging-Header.h"; sourceTree = "<group>"; };
+		499DDB372659D37A0058070C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		499DDB392659D6B00058070C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		499DDB3B2659EB990058070C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499DDB142659C4E10058070C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499DDB332659C7490058070C /* libz.tbd in Frameworks */,
+				499DDB3A2659D6B00058070C /* SystemConfiguration.framework in Frameworks */,
+				499DDB312659C6F30058070C /* libc++.tbd in Frameworks */,
+				499DDB382659D37A0058070C /* CoreFoundation.framework in Frameworks */,
+				499DDB2F2659C6BC0058070C /* CoreBluetooth.framework in Frameworks */,
+				499DDB2D2659C6AA0058070C /* ExternalAccessory.framework in Frameworks */,
+				499DDB352659CDC10058070C /* WFConnector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499DDB0E2659C4E10058070C = {
+			isa = PBXGroup;
+			children = (
+				499DDB192659C4E10058070C /* bikeWorld */,
+				499DDB182659C4E10058070C /* Products */,
+				499DDB2B2659C6AA0058070C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		499DDB182659C4E10058070C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499DDB172659C4E10058070C /* bikeWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499DDB192659C4E10058070C /* bikeWorld */ = {
+			isa = PBXGroup;
+			children = (
+				499DDB1A2659C4E10058070C /* AppDelegate.swift */,
+				499DDB3B2659EB990058070C /* TestViewController.swift */,
+				499DDB1C2659C4E10058070C /* art.scnassets */,
+				499DDB1E2659C4E20058070C /* GameViewController.swift */,
+				499DDB362659CEB20058070C /* WFConnector-Bridging-Header.h */,
+				499DDB202659C4E20058070C /* Main.storyboard */,
+				499DDB232659C4E60058070C /* Assets.xcassets */,
+				499DDB252659C4E60058070C /* Info.plist */,
+			);
+			path = bikeWorld;
+			sourceTree = "<group>";
+		};
+		499DDB2B2659C6AA0058070C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499DDB392659D6B00058070C /* SystemConfiguration.framework */,
+				499DDB372659D37A0058070C /* CoreFoundation.framework */,
+				499DDB322659C7490058070C /* libz.tbd */,
+				499DDB302659C6D60058070C /* libc++.tbd */,
+				499DDB2E2659C6BB0058070C /* CoreBluetooth.framework */,
+				499DDB2C2659C6AA0058070C /* ExternalAccessory.framework */,
+				499DDB342659CDC10058070C /* WFConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499DDB162659C4E10058070C /* bikeWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499DDB282659C4E60058070C /* Build configuration list for PBXNativeTarget "bikeWorld" */;
+			buildPhases = (
+				499DDB132659C4E10058070C /* Sources */,
+				499DDB142659C4E10058070C /* Frameworks */,
+				499DDB152659C4E10058070C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bikeWorld;
+			productName = bikeWorld;
+			productReference = 499DDB172659C4E10058070C /* bikeWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499DDB0F2659C4E10058070C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					499DDB162659C4E10058070C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 499DDB122659C4E10058070C /* Build configuration list for PBXProject "bikeWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499DDB0E2659C4E10058070C;
+			productRefGroup = 499DDB182659C4E10058070C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499DDB162659C4E10058070C /* bikeWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499DDB152659C4E10058070C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499DDB1D2659C4E10058070C /* art.scnassets in Resources */,
+				499DDB242659C4E60058070C /* Assets.xcassets in Resources */,
+				499DDB222659C4E20058070C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499DDB132659C4E10058070C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499DDB1F2659C4E20058070C /* GameViewController.swift in Sources */,
+				499DDB3C2659EB990058070C /* TestViewController.swift in Sources */,
+				499DDB1B2659C4E10058070C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		499DDB202659C4E20058070C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499DDB212659C4E20058070C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499DDB262659C4E60058070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499DDB272659C4E60058070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499DDB292659C4E60058070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 659X72BL55;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = bikeWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahoward.bikeWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bikeWorld/WFConnector-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499DDB2A2659C4E60058070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 659X72BL55;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = bikeWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahoward.bikeWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bikeWorld/WFConnector-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499DDB122659C4E10058070C /* Build configuration list for PBXProject "bikeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499DDB262659C4E60058070C /* Debug */,
+				499DDB272659C4E60058070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499DDB282659C4E60058070C /* Build configuration list for PBXNativeTarget "bikeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499DDB292659C4E60058070C /* Debug */,
+				499DDB2A2659C4E60058070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499DDB0F2659C4E10058070C /* Project object */;
+}
